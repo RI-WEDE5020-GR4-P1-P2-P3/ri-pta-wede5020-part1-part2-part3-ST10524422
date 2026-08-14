@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoCare Community Trust | Projects & Services</title>
+    
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Aptos', Arial, sans-serif; }
+        body { background-color: #F5F5DC; color: #333333; line-height: 1.6; }
+
+        .academic-header { background-color: #5D4037; color: #FFFFFF; padding: 8px 20px; font-size: 0.85rem; text-align: center; }
+
+        header {
+            background-color: #FFFFFF; padding: 15px 40px; display: flex; justify-content: space-between; align-items: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08); position: sticky; top: 0; z-index: 1000;
+        }
+        .logo-container { font-weight: bold; font-size: 1.2rem; color: #2E7D32; display: flex; align-items: center; gap: 10px; }
+        .logo-container img { height: 45px; width: 45px; object-fit: cover; border-radius: 50%; }
+        nav ul { list-style: none; display: flex; gap: 15px; }
+        nav a { text-decoration: none; color: #2E7D32; font-weight: 600; font-size: 0.95rem; padding: 8px 12px; border-radius: 6px; }
+        nav a:hover, nav a.active { background-color: #2E7D32; color: #FFFFFF; }
+
+        main { max-width: 1000px; margin: 30px auto; padding: 30px; background-color: #FFFFFF; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        h1 { color: #2E7D32; margin-bottom: 25px; }
+
+        .project-card { display: flex; gap: 25px; margin-bottom: 30px; border-bottom: 1px solid #5D4037; padding-bottom: 25px; align-items: center; }
+        .project-card img { width: 280px; height: 180px; border-radius: 8px; object-fit: cover; }
+        .project-info h2 { color: #2E7D32; margin-bottom: 10px; }
+        .project-info p { color: #555; font-size: 0.95rem; }
+
+        /* EMBEDDED MAP FEATURE CONTAINER */
+        .map-section { background-color: #F5F5DC; border: 2px dashed #5D4037; padding: 25px; border-radius: 10px; margin-top: 35px; }
+        .map-section h3 { color: #2E7D32; margin-bottom: 10px; display: flex; align-items: center; gap: 8px; }
+        .map-placeholder { background: #FFFFFF; border: 1px solid #ccc; height: 200px; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #666; margin-top: 15px; font-weight: 500; text-align: center; padding: 15px; }
+
+        footer { background-color: #2E7D32; color: #FFFFFF; text-align: center; padding: 25px 20px; margin-top: 40px; border-top: 5px solid #5D4037; }
+    </style>
+</head>
+<body>
+
+    <div class="academic-header">
+        <strong>Module Code:</strong> WEDE5020 | <strong>ICE Task 2 Project Proposal 1:</strong> EcoCare Community Trust (NPO) | <strong>Student Name:</strong> Oratile Thamage | <strong>Student Number:</strong> ST10524422 | <strong>Group:</strong> Group 4
+    </div>
+
+    <header>
+        <div class="logo-container">
+            <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=400&auto=format&fit=crop" alt="EcoCare Logo">
+            <span>EcoCare Trust</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="projects.html" class="active">Projects & Services</a></li>
+                <li><a href="volunteer.html">Volunteer & Sponsor</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Proposed Website Projects & Services</h1>
+
+        <div class="project-card">
+            <img src="https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e?q=80&w=600&auto=format&fit=crop" alt="Urban Greening">
+            <div class="project-info">
+                <h2>1. Urban Greening & Tree Planting</h2>
+                <p>Clearing neglected township plots and converting them into managed green spaces through urban tree planting initiatives and public park maintenance.</p>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?q=80&w=600&auto=format&fit=crop" alt="Food Security">
+            <div class="project-info">
+                <h2>2. Food Security Gardens</h2>
+                <p>Establishing self-sustaining organic vegetable patches in low-income urban townships, directly supplying fresh produce to local families.</p>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?q=80&w=600&auto=format&fit=crop" alt="Waste Recycling Drives">
+            <div class="project-info">
+                <h2>3. Local Household Waste Recycling & Workshops</h2>
+                <p>Organizing structured neighborhood recycling drives and running interactive school workshops to educate youth on sustainable conservation.</p>
+            </div>
+        </div>
+
+        <!-- MULTI-LOCATION EMBEDDED MAP FEATURE -->
+        <section class="map-section">
+            <h3>📍 Interactive Multi-Location Embedded Map (Gauteng Community Gardens)</h3>
+            <p>Feature Specification: An interactive map displaying active community gardens across Gauteng with hover cards showing local site coordinator details.</p>
+            <div class="map-placeholder">
+                [ Dynamic JavaScript / OpenStreetMap Embedded Container - Interactive Gauteng Garden Locations & Coordinator Hover Cards ]
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 EcoCare Community Trust. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoCare Community Trust | Home</title>
+    
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Aptos', Arial, sans-serif; }
+        body { background-color: #F5F5DC; color: #333333; line-height: 1.6; }
+
+        .academic-header {
+            background-color: #5D4037;
+            color: #FFFFFF;
+            padding: 8px 20px;
+            font-size: 0.85rem;
+            text-align: center;
+        }
+
+        header {
+            background-color: #FFFFFF;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            position: sticky; top: 0; z-index: 1000;
+        }
+        .logo-container { font-weight: bold; font-size: 1.2rem; color: #2E7D32; display: flex; align-items: center; gap: 10px; }
+        .logo-container img { height: 45px; width: 45px; object-fit: cover; border-radius: 50%; }
+        nav ul { list-style: none; display: flex; gap: 15px; }
+        nav a { text-decoration: none; color: #2E7D32; font-weight: 600; font-size: 0.95rem; padding: 8px 12px; border-radius: 6px; }
+        nav a:hover, nav a.active { background-color: #2E7D32; color: #FFFFFF; }
+
+        main { max-width: 1100px; margin: 30px auto; padding: 20px; background-color: #FFFFFF; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: #2E7D32;
+            color: #FFFFFF;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            border-bottom: 5px solid #5D4037;
+        }
+        .hero h1 { font-size: 2.2rem; margin-bottom: 15px; }
+        .hero p { font-size: 1.1rem; max-width: 750px; margin: 0 auto 25px auto; }
+        .hero-buttons { display: flex; justify-content: center; gap: 15px; }
+        .btn { display: inline-block; padding: 12px 24px; background-color: #5D4037; color: #FFFFFF; text-decoration: none; font-weight: bold; border-radius: 6px; }
+        .btn:hover { background-color: #2E7D32; border: 1px solid #FFFFFF; }
+        .btn-secondary { background-color: #FFFFFF; color: #2E7D32; }
+
+        .kpi-banner { background-color: #F5F5DC; border-left: 5px solid #5D4037; padding: 15px 20px; margin-bottom: 30px; border-radius: 4px; }
+        .kpi-banner h3 { color: #5D4037; margin-bottom: 5px; font-size: 1.1rem; }
+        .kpi-banner p { color: #333; font-size: 0.95rem; }
+
+        .focus-areas h2 { text-align: center; color: #2E7D32; margin-bottom: 25px; font-size: 1.8rem; }
+        .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .card { background: #FFFFFF; border: 1px solid #5D4037; border-radius: 10px; overflow: hidden; display: flex; flex-direction: column; }
+        .card img { width: 100%; height: 180px; object-fit: cover; }
+        .card-content { padding: 20px; display: flex; flex-direction: column; flex-grow: 1; }
+        .card h3 { color: #2E7D32; margin-bottom: 10px; }
+        .card p { color: #555; font-size: 0.95rem; margin-bottom: 15px; flex-grow: 1; }
+        .card a { color: #5D4037; font-weight: bold; text-decoration: none; }
+
+        footer { background-color: #2E7D32; color: #FFFFFF; text-align: center; padding: 25px 20px; margin-top: 40px; border-top: 5px solid #5D4037; }
+        footer a { color: #F5F5DC; text-decoration: none; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <div class="academic-header">
+        <strong>Module Code:</strong> WEDE5020 | <strong>ICE Task 2 Project Proposal 1:</strong> EcoCare Community Trust (NPO) | <strong>Student Name:</strong> Oratile Thamage | <strong>Student Number:</strong> ST10524422 | <strong>Group:</strong> Group 4
+    </div>
+
+    <header>
+        <div class="logo-container">
+            <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=400&auto=format&fit=crop" alt="EcoCare Logo">
+            <span>EcoCare Trust</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="projects.html">Projects & Services</a></li>
+                <li><a href="volunteer.html">Volunteer & Sponsor</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Growing Sustainable Communities Together</h1>
+            <p>Empowering Gauteng urban townships through accessible environmental education, sustainable agriculture, and community recycling drives to combat food insecurity.</p>
+            <div class="hero-buttons">
+                <a href="volunteer.html" class="btn">Get Involved / Volunteer</a>
+                <a href="volunteer.html" class="btn btn-secondary">Sponsor a Garden</a>
+            </div>
+        </section>
+
+        <section class="kpi-banner">
+            <h3>Website Strategic Objectives & Goals</h3>
+            <p>EcoCare Community Trust is establishing a centralized digital platform to automate volunteer recruitment, present transparent governance for corporate social responsibility (CSR) sponsors, and streamline community outreach across South African urban areas.</p>
+        </section>
+
+        <section class="focus-areas">
+            <h2>Our Core Initiatives</h2>
+            <div class="card-grid">
+                
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e?q=80&w=600&auto=format&fit=crop" alt="Urban Greening">
+                    <div class="card-content">
+                        <h3>Urban Greening</h3>
+                        <p>Cleaning up unused township land and establishing vibrant public parks and urban tree planting initiatives across Gauteng.</p>
+                        <a href="projects.html">Learn More &rarr;</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?q=80&w=600&auto=format&fit=crop" alt="Food Security">
+                    <div class="card-content">
+                        <h3>Food Security</h3>
+                        <p>Assisting underprivileged townships in establishing self-sustaining vegetable patches to directly combat local hunger.</p>
+                        <a href="projects.html">Learn More &rarr;</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?q=80&w=600&auto=format&fit=crop" alt="Waste Recycling">
+                    <div class="card-content">
+                        <h3>Waste Recycling</h3>
+                        <p>Organizing local household waste sorting drives and conducting educational school workshops on environmental conservation.</p>
+                        <a href="projects.html">Learn More &rarr;</a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 EcoCare Community Trust (NPO Registration: .org.za accredited entity). All Rights Reserved.</p>
+        <p><a href="contact.html">Contact Us</a> | <a href="volunteer.html">Volunteer & Sponsor Enquiry</a></p>
+    </footer>
+
+</body>
+</html>
